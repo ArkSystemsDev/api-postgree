@@ -1,0 +1,20 @@
+{
+    "name": "api-postgree-1.0",
+    "version": "1.0.1",
+    "description": "api-postgresql",
+    "main": "server.js",
+    "scripts": {
+        "test": "npm start",
+        "start": "node server.js"
+    },
+    "author": "Shadomal",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.0.0",
+        "express": "^4.17.3",
+        "node": "^17.7.2",
+        "node-fetch": "^3.2.3",
+        "nodemon": "^2.0.15",
+        "pg": "^8.7.3"
+    }
+}
